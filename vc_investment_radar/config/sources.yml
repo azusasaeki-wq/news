@@ -1,0 +1,106 @@
+# Sources: prefer RSS; fallback to News/Press pages if RSS not available.
+# Only items whose title contains one of the keywords below will be kept (case-insensitive).
+filters:
+  include_title_any:
+    - invests
+    - investment
+    - leads
+    - leading
+    - backs
+    - joins
+    - funding
+    - seed
+    - series a
+    - series b
+    - series c
+    - announces investment
+    - our investment
+    - co-leads
+    - raises
+    - round
+
+firms:
+  a16z:
+    rss:
+      - https://a16z.com/feed
+    pages: []
+
+  Sequoia:
+    rss:
+      - https://www.sequoiacap.com/feed
+    pages: []
+
+  Accel:
+    rss: []
+    pages:
+      - https://www.accel.com/news
+
+  Index Ventures:
+    rss: []
+    pages:
+      - https://www.indexventures.com/perspectives/category/news/
+
+  Lightspeed:
+    rss: []
+    pages:
+      - https://lsvp.com/stories/
+
+  Greylock:
+    rss:
+      - https://news.greylock.com/feed
+    pages: []
+
+  Benchmark:
+    rss: []
+    pages:
+      - https://www.benchmark.com/news
+
+  Bessemer:
+    rss:
+      - https://www.bvp.com/feed
+    pages: []
+
+  Balderton:
+    rss:
+      - https://www.balderton.com/news/feed
+    pages: []
+
+  Atomico:
+    rss: []
+    pages:
+      - https://atomico.com/latest/#filter=news
+
+  Y Combinator:
+    rss:
+      - https://www.ycombinator.com/blog/feed/
+    pages: []
+
+  Techstars:
+    rss: []
+    pages:
+      - https://www.techstars.com/newsroom
+
+  500 Global:
+    rss: []
+    pages:
+      - https://500.co/press
+
+  Antler:
+    rss: []
+    pages:
+      - https://www.antler.co/newsroom
+
+  NFX:
+    rss:
+      - https://www.nfx.com/feed
+    pages: []
+
+  Seedcamp:
+    rss:
+      - https://seedcamp.com/feed
+    pages: []
+
+  LocalGlobe:
+    rss: []
+    pages:
+      - https://localglobe.vc/news
